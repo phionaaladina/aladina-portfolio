@@ -1,0 +1,356 @@
+
+
+/* Header Styles */
+header {
+    background-color: #33333328;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6600; /* Change to your desired hover color */
+}
+
+/* Add some padding to the content to prevent it from being hidden behind the header */
+body {
+    padding-top: 60px; /* Adjust this value as needed */
+}
+
+
+
+
+
+
+.intro{
+    background-color: white;
+    height: 800px;
+    margin-top: 0px;
+}
+.myImage{
+    float:right;
+    height: 600px;
+    width: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 80px;
+    border-radius: 50%;
+
+}
+
+.intro-text{
+    float: left;
+}
+
+.heading{
+    float: left;
+    padding-top: 200px;
+    font-size: 50px;
+    align-items: center;
+    padding-left: 60px;
+}
+
+strong{
+    font-size: 100px;
+    color: brown;
+}
+
+
+
+.more-info{
+    margin-top: 300px;
+}
+
+/* .about{
+    padding-top: 350px;
+    font-size: 25px;
+} */
+
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 166, 0, 0.5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    margin-top: 150px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgba(255, 166, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* Add styles for the bio section */
+.bio {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* CSS for setting the background image */
+    background-image: url('/Images/bg3.avif'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover; /* Adjust to 'contain' or other values as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+   
+
+
+}
+
+.bio h2 {
+    font-size: 24px;
+    color: #ff6600; /* Change to your desired heading color */
+    margin-bottom: 10px;
+}
+
+.bio p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* Footer Styles */
+footer {
+ 
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* Add some space at the bottom of the page to prevent content from overlapping the footer */
+body {
+    margin-bottom: 100px; /* Adjust this value as needed */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer-logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-contact {
+    text-align: right;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+
+
+/* resume */
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+
+}
+
+.resume {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 1850px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ff6600;
+}
+
+ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+/* Styles for different resume sections */
+.education, .experience {
+    margin-top: 20px;
+}
+
+.contact{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+
+
+/* Style for the Skills section */
+.skills {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.skills h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust column width as needed */
+    grid-gap: 20px; /* Adjust gap between items */
+}
+
+.skill {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill img {
+    width: 100px; /* Adjust image size as needed */
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.skill h3 {
+    color: #ff6600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.4;
+}
